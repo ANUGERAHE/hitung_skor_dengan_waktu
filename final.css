@@ -1,0 +1,137 @@
+
+body{
+  background: url(basketball-g23b602373_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.semua{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.satu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.dua{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.satu h1{
+    font-family: 'Orbitron', sans-serif;
+	font-weight: 400;
+	font-size: 80px;
+	color: #f94f6d;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dua h1{
+    font-family: 'Orbitron', sans-serif;
+	font-weight: 400;
+	font-size: 80px;
+	color: #f94f6d;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    font-family: 'orbitron',sans-serif;
+    
+}
+
+.masing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+p{
+    font-size: x-large;
+    color: white;
+    align-items: center;
+}
+
+.dua-satu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'orbitron',sans-serif;
+    color: #f94f6d;
+    margin-left: 500px;
+    margin-right: 500px;
+    height: 150px;
+    
+}
+.entah{
+    display: flex;
+    flex-direction: row;
+}
+.nol-satu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+}
+#start{
+    background-color: white;
+    color: black;
+}
+#pause{
+    background-color: white;
+    color: black;
+}
+#ulang{
+    background-color: white;
+    color: black;
+}
+#tombol1,#tombol2{
+    background-color: red;
+    
+}
+#kurang1,#kurang2{
+    background-color: white;
+    color: black;
+}
+#reset{
+    background-color: white;
+    color: black;
+}
